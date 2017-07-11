@@ -52,4 +52,5 @@ Route::get('getJson','mycontroller@getJson');
 Route::get('myView','mycontroller@myView');
 
 // truyền tham số trên view
-Route::get('Time/{t}','mycontroller@Time');
+Route::get('Time/{t }','mycontroller@Time');
+
