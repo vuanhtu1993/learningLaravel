@@ -47,3 +47,6 @@ Route::post('postFile',['as'=>'postFile','uses'=>'mycontroller@postFile']);
 
 // CREATED FILE .JSON
 Route::get('getJson','mycontroller@getJson');
+
+//created View
+Route::get('View','mycontroller@View');

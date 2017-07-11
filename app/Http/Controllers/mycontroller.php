@@ -61,4 +61,9 @@ class mycontroller extends Controller
         $array=['php','html','css','javascript'];
         return response()->json($array);
     }
+
+    /*CREATED VIEW*/
+    public function View(){
+
+    }
 }
