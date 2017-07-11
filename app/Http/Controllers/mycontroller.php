@@ -66,4 +66,9 @@ class mycontroller extends Controller
     public function myView(){
         return view('myview');
     }
+
+    /*truyen tham so tren view*/
+    public function Time($t){
+        return view('myview',['time'=>$t]);
+    }
 }

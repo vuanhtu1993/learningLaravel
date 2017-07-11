@@ -49,6 +49,7 @@ Route::post('postFile',['as'=>'postFile','uses'=>'mycontroller@postFile']);
 Route::get('getJson','mycontroller@getJson');
 
 //created View
-Route::get('myView',function (){
-    return view('myview');
-});
+Route::get('myView','mycontroller@myView');
+
+// truyền tham số trên view
+Route::get('Time/{t}','mycontroller@Time');
