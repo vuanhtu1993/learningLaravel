@@ -64,6 +64,6 @@ class mycontroller extends Controller
 
     /*CREATED VIEW*/
     public function myView(){
-
+        return view('myview');
     }
 }
