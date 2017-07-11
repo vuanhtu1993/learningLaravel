@@ -63,7 +63,7 @@ class mycontroller extends Controller
     }
 
     /*CREATED VIEW*/
-    public function View(){
+    public function myView(){
 
     }
 }
