@@ -54,3 +54,14 @@ Route::get('myView','mycontroller@myView');
 // truyền tham số trên view
 Route::get('Time/{t }','mycontroller@Time');
 
+//USED SECTION AND YIELD TO CALL CONTENT
+Route::get('blade',function (){
+   return view('layouts.master');
+});
+
+Route::get('blade2',function (){
+   return view('layouts.master2');
+});
+
+
+Route::resource('photo','PhotoController');
